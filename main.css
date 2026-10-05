@@ -1,0 +1,246 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f5f7f6;
+    }
+
+    header {
+      background: #003b2f;
+      color: white;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f5c542;
+    }
+
+    .hero {
+      background: linear-gradient(
+        rgba(0, 59, 47, 0.9),
+        rgba(0, 59, 47, 0.8)
+      ),
+      linear-gradient(135deg, #087f5b, #002d23);
+
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      max-width: 750px;
+      margin: auto;
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    section h2 {
+      color: #003b2f;
+      text-align: center;
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .programs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .program {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      border-top: 5px solid #087f5b;
+      transition: 0.3s;
+    }
+
+    .program:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    .program h3 {
+      color: #087f5b;
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+    }
+
+    .program p {
+      color: #555;
+    }
+
+    .highlight {
+      background: #003b2f;
+      color: white;
+    }
+
+    .highlight h2 {
+      color: white;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .feature {
+      text-align: center;
+      padding: 25px;
+    }
+
+    .icon {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .feature h3 {
+      color: #f5c542;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      color: #e8eeee;
+    }
+
+    .resources {
+      background: white;
+    }
+
+    .resource-box {
+      max-width: 900px;
+      margin: 35px auto 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .resource {
+      padding: 20px;
+      background: #f0f4f2;
+      border-left: 5px solid #087f5b;
+      border-radius: 5px;
+    }
+
+    .resource h3 {
+      color: #003b2f;
+      margin-bottom: 6px;
+    }
+
+    .cta {
+      background: #f5c542;
+      text-align: center;
+    }
+
+    .cta h2 {
+      color: #003b2f;
+    }
+
+    .button {
+      display: inline-block;
+      background: #003b2f;
+      color: white;
+      padding: 13px 28px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #087f5b;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      background: #002d23;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 850px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero h1 {
+        font-size: 2.8rem;
+      }
+
+      .programs,
+      .features {
+        grid-template-columns: 1fr;
+      }
+
+      .resource-box {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 500px) {
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      section {
+        padding: 50px 6%;
+      }
+    }

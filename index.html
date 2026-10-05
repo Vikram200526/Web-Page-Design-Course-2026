@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUNY New Paltz</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: #222;
+      background: #f5f7f6;
+    }
+
+    header {
+      background: #0b003b;
+      color: white;
+      padding: 20px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f5c542;
+    }
+
+    .hero {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      color: white;
+      background:
+        linear-gradient(rgba(0, 59, 47, 0.8), rgba(0, 59, 47, 0.8)),
+        linear-gradient(135deg, #087f5b, #002d23);
+    }
+
+    .hero-content {
+      max-width: 800px;
+    }
+
+    .hero h1 {
+      font-size: 4rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #f5c542;
+      color: #222;
+      padding: 12px 25px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background: #ffd966;
+      transform: translateY(-2px);
+    }
+
+    section {
+      padding: 70px 8%;
+    }
+
+    section h2 {
+      color: #003b2f;
+      text-align: center;
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+    }
+
+    .intro {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      color: #087f5b;
+      margin-bottom: 12px;
+    }
+
+    .facts {
+      background: #003b2f;
+      color: white;
+    }
+
+    .facts h2 {
+      color: white;
+    }
+
+    .fact-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      text-align: center;
+      margin-top: 35px;
+    }
+
+    .fact {
+      padding: 25px;
+    }
+
+    .fact strong {
+      display: block;
+      font-size: 2rem;
+      color: #f5c542;
+      margin-bottom: 8px;
+    }
+
+    .campus {
+      background: white;
+    }
+
+    .campus-list {
+      max-width: 850px;
+      margin: 30px auto 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    .campus-list div {
+      background: #f0f4f2;
+      padding: 18px;
+      border-left: 5px solid #087f5b;
+      border-radius: 5px;
+    }
+
+    .cta {
+      text-align: center;
+      background: #f5c542;
+    }
+
+    .cta h2 {
+      color: #003b2f;
+    }
+
+    footer {
+      background: #002d23;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    @media (max-width: 800px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 8px;
+      }
+
+      .hero h1 {
+        font-size: 2.7rem;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .fact-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .campus-list {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 500px) {
+      .fact-grid {
+        grid-template-columns: 1fr;
+      }
+
+      nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">SUNY New Paltz</div>
+    
+    <nav>
+      <a href="#about">About</a>
+      <a href="academics.html">Academics</a>
+      <a href="#campus">Campus Life</a>
+      <a href="#admissions">Admissions</a>
+    </nav>
+  
+  </header>
+
+  <main>
+
+    <section class="hero">
+  <img src="fall-open-house.webp" alt="SUNY New Paltz campus">
+
+  <div class="hero-content">
+    <h1>SUNY New Paltz</h1>
+    <p>
+      Discover a vibrant college community in the heart of the Hudson Valley.
+    </p>
+    <a class="button" href="#about">Explore the Campus</a>
+  </div>
+</section>
+
+
+    <section id="about">
+
+      <h2>About SUNY New Paltz</h2>
+      <p class="intro">
+        State University of New York at New Paltz is a public university
+        located in New Paltz, New York. The campus combines a strong liberal
+        arts tradition with professional programs, creative opportunities,
+        and a close-knit campus community.
+      </p>
+    </section>
+
+
+
+    <section id="academics">
+      <h2>Academics</h2>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Liberal Arts</h3>
+          <p>
+            Explore subjects across the humanities, social sciences,
+            natural sciences, and interdisciplinary studies.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Business & Professional Studies</h3>
+          <p>
+            Develop practical skills and knowledge through programs designed
+            to prepare students for professional careers.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Arts & Design</h3>
+          <p>
+            Discover opportunities in visual arts, design, music, theatre,
+            and other creative disciplines.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="facts">
+      <h2>University at a Glance</h2>
+
+      <div class="fact-grid">
+        <div class="fact">
+          <strong>1828</strong>
+          Founded
+        </div>
+
+        <div class="fact">
+          <strong>NY</strong>
+          New Paltz, New York
+        </div>
+
+        <div class="fact">
+          <strong>Hudson</strong>
+          Valley Location
+        </div>
+
+        <div class="fact">
+          <strong>SUNY</strong>
+          State University of New York
+        </div>
+      </div>
+    </section>
+
+    <section id="campus" class="campus">
+      <h2>Campus Life</h2>
+      <p class="intro">
+        Life at SUNY New Paltz extends beyond the classroom, with opportunities
+        to connect through clubs, organizations, athletics, arts, and campus events.
+      </p>
+
+      <div class="campus-list">
+        <div>🎨 Art & Creative Organizations</div>
+        <div>🏃 Athletics & Recreation</div>
+        <div>🎭 Performing Arts</div>
+        <div>🌎 Student Organizations</div>
+        <div>📚 Libraries & Study Spaces</div>
+        <div>🌳 Outdoor Activities</div>
+      </div>
+    </section>
+
+    <section id="admissions">
+      <h2>Admissions</h2>
+      <p class="intro">
+        Interested in becoming a New Paltz student? Explore undergraduate and
+        graduate programs, application requirements, financial aid, and other
+        resources through the university's official admissions information.
+      </p>
+
+      <div style="text-align:center; margin-top:30px;">
+        <a
+          class="button"
+          href="https://www.newpaltz.edu/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit SUNY New Paltz
+        </a>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Find Your Place at New Paltz</h2>
+      <p>
+        Learn, create, connect, and explore in the Hudson Valley.
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p><strong>SUNY New Paltz</strong></p>
+    <p>New Paltz, New York</p>
+    <p>&copy; 2026 Student Web Project</p>
+  </footer>
+
+</body>
+</html>
