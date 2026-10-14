@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 
 # Vikram Singh
 
@@ -9,7 +9,8 @@ A github profile page to represent myself for the course Web Page Design Fall 20
 
 [GitHub Profile Link](https://github.com/Vikram200526/Web-Page-Design-Course-2026)
 ## About Me
-</center>
+
+</div>
 
 Hello! My name is Vikram Singh, a 20 year old computer science major currently enrolled at SUNY New Paltz University.
 
@@ -80,10 +81,10 @@ end
 ```
 > "Why does nothing ever work first try?" - Vikram Singh 2026
 
-<center>
+<div align="center">
 
 ## Computer Science Journey
-</center>
+</div>
 
 ### Programming Languages
 Mastered Languages
@@ -115,8 +116,12 @@ All personal projects include the following Roblox video games
 
 [**Tanks 2D**](https://www.roblox.com/games/11965373370/Tanks-2D?gameSetTypeId=100000003&homePageSessionInfo=d02f80a0-9988-4253-b9a2-4d17d72b6fff&isAd=false&newGameEnum_analyticsData=0&numberOfLoadedTiles=159&page=homePage&placeId=11965373370&playContext=homePage&position=2&positionInRow=2&rowOnPage=3&sortPos=2&sortSubId=&universeId=4234446193): A recreation of the web game Diep.io, where players control a tank to shoot and fight against other tanks.
 
+<div align="center">
+
 ### Current Status
 On track to graduating from university in May 2027 with a bachelors in computer science!
+
+</div>
 
 
 
