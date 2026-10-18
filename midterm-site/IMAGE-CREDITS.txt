@@ -1,0 +1,15 @@
+LEVEL UP CENTRAL — IMAGE CREDITS
+
+The four local SVG images in this starter version are original vector illustrations created for this project, so they are stored directly in this folder and work without an internet connection:
+- gaming-hero.svg
+- gaming-setup.svg
+- controller.svg
+- esports.svg
+
+Optional replacement with free-to-use photos:
+- Unsplash gaming setup photo search: https://unsplash.com/s/photos/gaming-setup
+- Pexels gaming setup photo search: https://www.pexels.com/search/gaming%20setup/
+- Unsplash license: https://unsplash.com/license
+- Pexels license: https://www.pexels.com/photo-license/
+
+If you replace the original SVGs with web photos, download each photo into this folder, update the matching HTML image filenames, and record the exact photo page, creator, and license in this file. Check the specific photo and current license before submitting.
