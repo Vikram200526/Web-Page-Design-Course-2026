@@ -1,0 +1,3 @@
+This is the prompt given to ChatGPT to generate the midterm-site
+
+Help me build my static website assignment. Topic: Gaming Hub. Visual style: dark and modern. Image plan: use freely licensed web images. Workflow: generate the complete starting website, then explain it. Follow the assignment exactly: plain HTML/CSS and optional vanilla JS, at least five linked HTML pages including index.html, at least four locally stored usable images, one external CSS file, and all files side by side in one flat folder initially.
