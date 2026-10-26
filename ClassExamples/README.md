@@ -1,0 +1,1 @@
+This folder ClassExamples is where I will store, create and reference work from in class.
