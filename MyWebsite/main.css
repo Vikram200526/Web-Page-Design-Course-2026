@@ -1,0 +1,10 @@
+.special-paragraph {
+    margin: 2rem;
+    background-color: #a0c5a7;
+}
+
+.highligheted {
+    display:block;
+    width: 50%;
+    background-color: #c5a0a4;
+}
